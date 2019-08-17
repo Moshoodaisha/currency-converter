@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 70px;
+  background: #333;
+  font-size: 25px;
+  font-family: monospace, sans-serif;
+}
+
+h1{
+  color: #11a331;
+}
+
+
+@media (max-width: 900px)  {
+h1{
+
+    font-size: 16px;
+    font-family: monospace, sans-serif;
+  }
+
+}
